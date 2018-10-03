@@ -3,7 +3,14 @@
   src:url(MOON 2.0 FREE/Moon2.0-Bold.oft) format("opentype");
 }
 h1{
+  margin: auto;
+  text-align: center;
+}
+span{
   font-size: 125px;
   font-family: moon;
   text-align: center;
+}
+a {
+  color: blue;
 }
