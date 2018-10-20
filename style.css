@@ -3,6 +3,10 @@
   src:url('MOON 2.0 FREE/Moon2.0-Bold.oft') format("opentype");
 }
 @font-face {
+  font-family: moonl;
+  src:url('MOON 2.0 FREE/Moon2.0-Light.otf') format("opentype");
+}
+@font-face {
   font-family: vcr;
   src: url('VCR_OSD_MONO.ttf') format('truetype');
 }
@@ -11,6 +15,7 @@ body {
   background-size: 110%;
   background-position-x: 95%;
   background-position-y: 20%;
+  font-family: moon;
 }
 #header{
   color: #141452;
@@ -36,4 +41,22 @@ a {
   font-family: vcr;
   font-size: 3rem;
   margin: 6rem;
+}
+div {
+  margin: auto;
+  display: block;
+  font-family: moonl;
+}
+#glass {
+  width: 65rem;
+  height: 20rem;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  padding: 2.5rem 4rem 2.5rem 4rem;
+  border: solid 0.2rem rgba(255, 255, 255, 0.7);
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 35%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 69%, rgba(255,255,255,0.6) 93%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg , rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
