@@ -28,11 +28,12 @@ nav {
   align-items: stretch;
   justify-content: space-between;
   text-align: center;
-  margin: 0;
+  margin: 3rem 0rem 3rem 0rem;
+  color:#db3700;
 }
 a {
-  color: #141452;
+  color: #e60000;
   font-family: vcr;
-  font-size: 2rem;
-  margin: 2rem;
+  font-size: 3rem;
+  margin: 6rem;
 }
