@@ -1,16 +1,29 @@
-@@font-face {
+@font-face {
   font-family: moon;
-  src:url(MOON 2.0 FREE/Moon2.0-Bold.oft) format("opentype");
+  src:url('MOON 2.0 FREE/Moon2.0-Bold.oft') format("opentype");
 }
-h1{
+@font-face {
+  font-family: vcr;
+  src: url(VCR_OSD_MONO.ttf) format('truetype');
+}
+body {
+  background-image: url('Vecteezy/Vecteezy-17-12200-05.jpg');
+  background-size: 110%;
+  background-position-x: 95%;
+  background-position-y: 20%;
+}
+#header{
+  color: #141452;
   margin: auto;
+  margin-top: 4rem;
   text-align: center;
-}
-span{
   font-size: 125px;
   font-family: moon;
   text-align: center;
 }
-a {
-  color: blue;
+.nav {
+  color: #141452;
+  font-family: vcr;
+  display: flex;
+  align-items: stretch
 }
