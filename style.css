@@ -15,12 +15,17 @@ body {
   background-size: 127%;
   background-position-x: 95%;
   background-position-y: 42%;
-  font-family: moon;
+  font-family: vcr;
+}
+a {
+  text-decoration: none;
+  color: #141452;
 }
 #header{
   color: #141452;
   margin: auto;
   margin-top: 4rem;
+  margin-bottom: 0rem;
   width: 100%;
   text-align: center;
   font-size: 125px;
@@ -33,21 +38,21 @@ nav {
   align-items: stretch;
   justify-content: space-between;
   text-align: center;
-  margin: 3rem 0rem 3rem 0rem;
-  color:#db3700;
+  margin: 0rem 0rem 0.5rem 0rem;
 }
-a {
-  color: #e60000;
+.navLink {
+  color: #ed1414;
   font-family: vcr;
   font-size: 3rem;
   margin: 6rem;
+  text-decoration: none;
 }
 div {
   margin: auto;
   display: block;
-  font-family: moonl;
+  font-family: vcr;
 }
-#glass {
+.glass_div {
   width: 65rem;
   height: 20rem;
   color: #fff;
@@ -59,4 +64,5 @@ div {
   background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg , rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  margin-bottom: 7rem;  
 }
