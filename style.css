@@ -15,11 +15,18 @@ body {
   background-size: 127%;
   background-position-x: 95%;
   background-position-y: 42%;
+  background-attachment: fixed;
   font-family: vcr;
 }
 a {
   text-decoration: none;
   color: #141452;
+}
+a:hover {
+  text-decoration: none;
+  color: #b0c4de;
+  margin-top: 3.2rem;
+  padding-top: 0.5rem;
 }
 #header{
   color: #141452;
@@ -33,18 +40,19 @@ a {
   text-align: center;
 }
 nav {
-  width: 100%;
+  margin: 0rem auto 2rem auto;
+  max-width: 60%;
   display: flex;
   align-items: stretch;
   justify-content: space-between;
   text-align: center;
-  margin: 0rem 0rem 0.5rem 0rem;
 }
 .navLink {
-  color: #ed1414;
+  color: 	#0ff;
+  text-shadow: 9px 8px 2px rgb(255, 0, 0);
   font-family: vcr;
   font-size: 3rem;
-  margin: 6rem;
+  margin: 4rem 6rem 6rem 6rem;
   text-decoration: none;
 }
 div {
