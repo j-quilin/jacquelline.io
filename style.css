@@ -74,3 +74,15 @@ div {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   margin-bottom: 7rem;  
 }
+img {
+  width: 15rem;
+  height: 10rem;
+  background-color: rgba(220, 0, 10, 0.15);
+  border-radius: 10% ;
+  margin: 1rem 1rem;
+  padding: 0.7rem;
+}
+#portrait {
+  width: 10rem;
+  align-items: center; 
+}
