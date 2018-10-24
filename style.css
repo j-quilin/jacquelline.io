@@ -125,8 +125,12 @@ footer {
   .glass_div {
     width: 80%;
     align-items: center;
+    margin-bottom: 1rem;
   }
   img {
     justify-content: space-evenly;
+  }
+  footer {
+    margin-bottom: 0rem;
   }
 }
