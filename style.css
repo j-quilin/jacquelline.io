@@ -50,7 +50,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 125px;
-  font-family: moon, moon, 'Linotte-SemiBold';
+  font-family: moon, 'Linotte-SemiBold';
   text-align: center;
 }
 nav {
@@ -114,6 +114,9 @@ footer {
     background-position: center;
     background-size: 400%;
     height:100%;
+  }
+  #header{
+    color: #1b1ba87c;
   }
   nav {
     display: flex;
