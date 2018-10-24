@@ -130,6 +130,7 @@ footer {
   .glass_div {
     width: 80%;
     align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 2.5rem;
     min-height: 55%;
     font-size: 2.7rem;
@@ -138,8 +139,8 @@ footer {
     justify-content: space-evenly;
   }
   .icon {
-    width: 8rem;
-    height: 8rem;
+    width: 9rem;
+    height: 9rem;
   }
   footer {
     margin-bottom: 0rem;
