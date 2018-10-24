@@ -29,6 +29,15 @@ body {
   background-attachment: fixed;
   font-family: vcr;
 }
+@media (max-width: 767px){
+  body.custom-background {
+      background-image: url('Vecteezy/Vecteezy-17-12200-05.jpg');
+      background-position-x: 95%;
+      background-position-y: 42%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 220%;
+}
 a {
   text-decoration: none;
   color: #141452;
@@ -78,6 +87,7 @@ div {
   letter-spacing: 0.3rem;
   padding: 2.5rem 4rem 2.5rem 4rem;
   border: solid 0.2rem rgba(255, 255, 255, 0.7);
+  border-radius: 1%;
   background: rgb(255,255,255); /* Old browsers */
   background: -moz-linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.5) 35%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 69%, rgba(255,255,255,0.6) 93%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
