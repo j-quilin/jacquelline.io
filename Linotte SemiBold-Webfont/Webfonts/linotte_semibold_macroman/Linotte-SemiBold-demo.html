@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 	(function($){$.fn.easyTabs=function(option){var param=jQuery.extend({fadeSpeed:"fast",defaultContent:1,activeClass:'active'},option);$(this).each(function(){var thisId="#"+this.id;if(param.defaultContent==''){param.defaultContent=1;}
 	if(typeof param.defaultContent=="number")
@@ -18,12 +18,12 @@
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 
 	<style type="text/css">
-			body{
-			font-family: 'varela_roundregular';
-					}
-</style>
+					body{
+				font-family: 'Linotte-SemiBold';
+							}
+		</style>
 
-<title>Varela Round Regular Specimen</title>
+	<title>Linotte SemiBold Specimen</title>
 	
 	
 	<script type="text/javascript" charset="utf-8">
@@ -36,10 +36,11 @@
 <body>
 <div id="container">
 	<div id="header">
-		Varela Round Regular	</div>
+		Linotte SemiBold	</div>
 	<ul class="tabs">
 		<li><a href="#specimen">Specimen</a></li>
 		<li><a href="#layout">Sample Layout</a></li>
+				<li><a href="#glyphs">Glyphs &amp; Languages</a></li>
 		<li><a href="#installing">Installing Webfonts</a></li>
 		
 	</ul>
@@ -90,7 +91,7 @@
 										<div id="xheight">
 				<div class="fontbody">&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;&#x25FC;body</div><div class="arialbody">body</div><div class="verdanabody">body</div><div class="georgiabody">body</div></div>
 										<div class="fontbody" style="z-index:1">
-											body<span>Varela Round Regular</span>
+											body<span>Linotte SemiBold</span>
 										</div>
 										<div class="arialbody" style="z-index:1">
 											body<span>Arial</span>
@@ -286,11 +287,28 @@
 			</div>
 
 
+			
 
 
 
-
-
+		<div id="glyphs">
+			<div class="section">
+				<div class="grid12 firstcol">
+			
+				<h1>Language Support</h1>
+				<p>The subset of Linotte SemiBold in this kit supports the following languages:<br />
+			
+					<em>This font does not fully support any language.</em>				</p>
+				<h1>Glyph Chart</h1>
+				<p>The subset of Linotte SemiBold in this kit includes all the glyphs listed below. Unicode entities are included above each glyph to help you insert individual characters into your layout.</p>
+				<div id="glyph_chart">
+			
+									</div>	
+				</div>
+		
+		
+			</div>
+		</div>
 		
 		
 		<div id="specs">
@@ -309,13 +327,13 @@
 					
 					<h2>2. Include the webfont stylesheet</h2>
 					<p>A special CSS @font-face declaration helps the various browsers select the appropriate font it needs without causing you a bunch of headaches. Learn more about this syntax by reading the <a href="https://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">Fontspring blog post</a> about it. The code for it is as follows:</p>
-					
-					
+
+
 <code>
 @font-face{ 
 	font-family: 'MyWebFont';
 	src: url('WebFont.eot');
-	src: url('WebFont.eot?iefix') format('eot'),
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
 	     url('WebFont.woff') format('woff'),
 	     url('WebFont.ttf') format('truetype'),
 	     url('WebFont.svg#webfont') format('svg');
@@ -327,7 +345,7 @@
 
 					<h2>3. Modify your own stylesheet</h2>
 					<p>To take advantage of your new fonts, you must tell your stylesheet to use them. Look at the original @font-face declaration above and find the property called "font-family." The name linked there will be what you use to reference the font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:</p>
-<code>p { font-family: 'MyWebFont', Arial, sans-serif; }</code>
+<code>p { font-family: 'WebFont', Arial, sans-serif; }</code>
 
 <h2>4. Test</h2>
 <p>Getting webfonts to work cross-browser <em>can</em> be tricky. Use the information in the sidebar to help you if you find that fonts aren't loading in a particular browser.</p>
@@ -365,7 +383,7 @@
 	
 	</div>
 	<div id="footer">
-		<p>&copy;2010-2011 Fontspring. All rights reserved.</p>
+		<p>&copy;2010-2017 Fontspring. All rights reserved.</p>
 	</div>
 </div>
 </body>

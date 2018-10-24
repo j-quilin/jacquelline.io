@@ -11,13 +11,9 @@
   src: url('VCR_OSD_MONO.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'varela_roundregular';
-  src: url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.eot');
-  src: url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.woff2') format('woff2'),
-       url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.woff') format('woff'),
-       url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.ttf') format('truetype'),
-       url('varela-round-fontfacekit/web-fonts/varelaround_regular_macroman/VarelaRound-Regular-webfont.svg#varela_roundregular') format('svg');
+  font-family: 'Linotte-SemiBold';
+  src: url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff2') format('woff2'),
+       url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -54,7 +50,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 125px;
-  font-family: moon, 'varela_roundregular' ;
+  font-family: moon, moon, 'Linotte-SemiBold';
   text-align: center;
 }
 nav {
