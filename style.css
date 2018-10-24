@@ -61,6 +61,7 @@ nav {
   margin: 0rem auto 2rem auto;
   max-width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
 }
@@ -106,4 +107,24 @@ img {
 footer {
   color: #4da6ff;
   font-size: 0.05rem;
+}
+@media screen and (max-width:1152px){
+  body{
+    background-size: 200%;
+  }
+  nav {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+  }
+ .navLink {
+      font-size: 4rem;
+  }
+  .glass_div {
+    width: 80%;
+    align-items: center;
+  }
+  img {
+    justify-content: space-evenly;
+  }
 }
