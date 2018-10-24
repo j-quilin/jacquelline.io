@@ -127,6 +127,7 @@ footer {
     align-items: center;
     margin-bottom: 1rem;
     min-height: 58%;
+    font-size: 1rem;
   }
   img {
     justify-content: space-evenly;
