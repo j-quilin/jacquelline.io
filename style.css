@@ -120,12 +120,12 @@ footer {
     align-items: center;
   }
  .navLink {
-      font-size: 4.5rem;
+      font-size: 5rem;
   }
   .glass_div {
     width: 80%;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     min-height: 55%;
     font-size: 2.4rem;
   }
