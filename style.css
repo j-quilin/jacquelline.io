@@ -111,6 +111,7 @@ footer {
 @media screen and (max-width:1152px){
   body{
     background-position: center;
+    background-size: 500%;
     height:100%;
   }
   nav {
