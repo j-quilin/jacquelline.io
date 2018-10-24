@@ -23,19 +23,14 @@
 }
 body {
   background-image: url('Vecteezy/Vecteezy-17-12200-05.jpg');
-  background-size: 127%;
-  background-position-x: 95%;
-  background-position-y: 42%;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  background-position: center;     
+  background-size: 135%;
+  height:100%;
+  width:100%; 
   background-attachment: fixed;
   font-family: vcr;
-}
-@media (max-width: 767px){
-  body.custom-background {
-      background-image: url('Vecteezy/Vecteezy-17-12200-05.jpg');
-      background-position: 50%;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 400%;
 }
 a {
   text-decoration: none;
