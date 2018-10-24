@@ -110,7 +110,8 @@ footer {
 }
 @media screen and (max-width:1152px){
   body{
-    background-size: 200%;
+    background-position: center;
+    height:100%;
   }
   nav {
     display: flex;
