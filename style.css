@@ -166,5 +166,6 @@ footer {
     float: none;
     width: 95%;
     margin: 5% 1%;
+    text-align: justify;
   }
 }
