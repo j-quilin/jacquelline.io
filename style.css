@@ -32,6 +32,9 @@ body {
   background-attachment: fixed;
   font-family: vcr;
 }
+h2 {
+  font-size: 1.5rem;
+}
 a {
   text-decoration: none;
   color: #141452;
@@ -42,6 +45,15 @@ a:hover {
   margin-top: 3.2rem;
   padding-top: 0.5rem;
 }
+.projectLink {
+  margin: 0;
+  padding: 0;
+}
+.projectLink:hover{
+  margin: 0rem;
+  padding: 0rem;
+}
+
 #header{
   color: #141452;
   margin: auto;
@@ -77,11 +89,11 @@ div {
   font-family: vcr;
 }
 .glass_div {
-  display: block;
+  display: flex;
   width: 65rem;
   min-height: 28rem;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   letter-spacing: 0.3rem;
   padding: 2.5rem 4rem 2.5rem 4rem;
   border: solid 0.2rem rgba(255, 255, 255, 0.7);
@@ -96,21 +108,20 @@ div {
 img {
   width: 15rem;
   height: 10rem;
-  margin: 1rem 1rem;
-  padding: 0.7rem;
+  margin: 50% 1rem;
 }
 #portrait {
   width: auto;
   height: 15rem;
   border-radius: 2%;
-  margin-top: 7%; 
-  padding: 0;
+  margin: auto; 
   transform: rotate(90deg);
   opacity: 70%;
   float: left;
 }
 #about {
   width: 57%;
+  margin: auto;
   float: right;
 }
 .icon {
@@ -122,6 +133,25 @@ footer {
   color: #4da6ff;
   font-size: 0.05rem;
 }
+
+li {
+  width: 80%;
+  margin: 3rem 0;
+  list-style-type: none;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.bar {
+  background-color: #353b48;
+  display: block;
+  height: 0.15rem;
+  border: 0.3rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+
 @media screen and (max-width:1152px){
   body{
     background-position: center;
