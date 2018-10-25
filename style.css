@@ -159,11 +159,12 @@ footer {
     margin-bottom: 0rem;
   }
   #portrait {
-    margin: 5% 5%;
+    margin: 5% 1% 5% 1%;
     float: none;
   }
   #about {
     float: none;
-    width: 60%;
+    width: 80%;
+    margin: 2%;
   }
 }
