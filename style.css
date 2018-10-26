@@ -224,4 +224,7 @@ input {
     letter-spacing: normal;
     text-align: justify;
   }
+  input {
+    width: 100%;
+  }
 }
