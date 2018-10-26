@@ -45,10 +45,11 @@ a:hover {
   margin-top: 3.2rem;
   padding-top: 0.5rem;
 }
-.projectLink {
+/*.projectLink {
   margin: 0;
   padding: 0;
 }
+*/
 .projectLink:hover{
   margin: 0rem;
   padding: 0rem;
@@ -108,7 +109,7 @@ div {
 img {
   width: 15rem;
   height: 10rem;
-  margin: 50% 1rem;
+  margin: 3.5% 2%;
 }
 #portrait {
   width: auto;
