@@ -176,6 +176,12 @@ form {
 input {
   margin: 2% auto 2% auto;
 }
+.input-small {
+  width: 40%;
+}
+.input-full-width {
+  width: 100%;
+}
 
 @media screen and (max-width:1152px){
   body{
