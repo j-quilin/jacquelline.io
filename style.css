@@ -34,6 +34,11 @@
   src:url('arkhip/Arkhip_font.otf') format("opentype"),
       url('arkhip/Arkhip_font.ttf') format("truetype");
 }
+@font-face {
+  font-family: 'club';
+  src: url('NEON\ CLUB\ MUSIC\ \(Font\ by\ Manuel\ Viergutz\)/NEON\ CLUB\ MUSIC_bold.otf') format('truetype');
+}
+
 html {
   width: 100%;
   height: 100%;
@@ -77,7 +82,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 9rem;
-  font-family: 'pop';
+  font-family: 'club';
   text-align: center;
 }
 nav {
