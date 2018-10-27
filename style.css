@@ -200,6 +200,7 @@ input {
   }
   #header{
     color: #1b1ba85b;
+    font-size: 7rem;
   }
   nav {
     display: flex;
