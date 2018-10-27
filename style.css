@@ -63,7 +63,7 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #99cc99;
+  color: #81d185;
 }
 a:hover {
   text-decoration: none;
@@ -214,7 +214,7 @@ input {
     height:100%;
   }
   #header{
-    font-size: 5rem;
+    font-size: 7rem;
   }
   nav {
     display: flex;
