@@ -11,6 +11,10 @@
   src: url('VCR_OSD_MONO.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'pop';
+  src: url('60s-pop/60s\ Pop.ttf') format('truetype');
+}
+@font-face {
   font-family: 'Linotte-SemiBold';
   src: url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff2') format('woff2'),
        url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff') format('woff');
@@ -50,7 +54,7 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: #99cc99;
 }
 a:hover {
   text-decoration: none;
@@ -69,14 +73,11 @@ a:hover {
 }
 
 #header{
-  color: #fff;
-  margin: auto;
-  margin-top: 4rem;
-  margin-bottom: 0rem;
+  margin: 7rem 0rem 2rem 0rem;
   width: 100%;
   text-align: center;
-  font-size: 7rem;
-  font-family: 'arkhip';
+  font-size: 9rem;
+  font-family: 'pop';
   text-align: center;
 }
 nav {
