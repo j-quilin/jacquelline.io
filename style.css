@@ -11,6 +11,10 @@
   src: url('VCR_OSD_MONO.ttf') format('truetype');
 }
 @font-face {
+  font-family: 'varela';
+  src: url('varela-round/VarelaRound-Regular.otf') format('truetype');
+}
+@font-face {
   font-family: 'pop';
   src: url('60s-pop/60s\ Pop.ttf') format('truetype');
 }
@@ -114,7 +118,7 @@ div {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
-  font-family: moon;
+  font-family: moon, 'varela';
 }
 .glass_div {
   display: block;
