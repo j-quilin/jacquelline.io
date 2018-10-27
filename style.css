@@ -39,8 +39,8 @@
   src: url('NEON\ CLUB\ MUSIC\ \(Font\ by\ Manuel\ Viergutz\)/NEON\ CLUB\ MUSIC_bold.otf') format('truetype');
 }
 @font-face {
-  font-family: 'shestole';
-  src: url('she-stole-the-night/She-Stole-the-Night.ttf') format('truetype');
+  font-family: 'pac';
+  src: url('pacfont/PAC-FONT.TTF') format('truetype');
 }
 
 html {
@@ -86,7 +86,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 7rem;
-  font-family: 'shestole';
+  font-family: 'pac';
   text-align: center;
 }
 nav {
