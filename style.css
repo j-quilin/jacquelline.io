@@ -17,6 +17,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Jaapokki';
+  src: url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.eot');
+  src: url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'),
+       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.woff') format('woff'),
+       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.ttf') format('truetype'),
+       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.svg') format('svg');
+}
 html {
   width: 100%;
   height: 100%;
@@ -37,7 +45,7 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #141452;
+  color: #fff;
 }
 a:hover {
   text-decoration: none;
@@ -56,14 +64,14 @@ a:hover {
 }
 
 #header{
-  color: #141452;
+  color: #fff;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 0rem;
   width: 100%;
   text-align: center;
-  font-size: 125px;
-  font-family: moon, 'Linotte-SemiBold';
+  font-size: 9rem;
+  font-family: 'Jaapokki';
   text-align: center;
 }
 nav {
@@ -154,9 +162,10 @@ h3 {
   box-shadow: 0 0 10px #2187e7b3;
 }
 .bar span {
-  height: 100%;
+  height: 100rem;
   float: left;  
-  background-color: #2187e7;
+  background: #2187e7;
+  z-index: 10;
 }
 .html {
   width: 95%;
@@ -174,10 +183,10 @@ form {
   justify-content: center;
 }
 input {
-  margin: 2% auto 2% auto;
+  margin: 2% 2.5% 2% 2.5%;
 }
 .input-small {
-  width: 40%;
+  width: 45%;
 }
 .input-full-width {
   width: 100%;
