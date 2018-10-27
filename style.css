@@ -42,6 +42,10 @@
   font-family: 'pac';
   src: url('pacfont/PAC-FONT.TTF') format('truetype');
 }
+@font-face {
+  font-family: 'halo';
+  src: url('halo/HALO____.TTF') format('truetype');
+}
 
 html {
   width: 100%;
@@ -86,7 +90,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 7rem;
-  font-family: 'pac';
+  font-family: 'halo';
   text-align: center;
 }
 nav {
