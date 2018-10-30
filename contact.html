@@ -33,10 +33,10 @@
     </p>
 
     <form>
-      <input class="input-small" type="text" placeholder="Your Name" required>
-      <input class="input-small" type="text" placeholder="Your Email" required>
-      <input class="input-full-width" type="text" placeholder="Mission Summary" required>
-      <input class="input-full-width" style="height: 15rem;" type="text" placeholder="Describe mission details further" required>
+      <label class="input-small">Your Name<input type="text" name="name" required></label>
+      <label class="input-small">Your E-mail<input type="email" name="email" required></label>
+      <label class="input-full-width">Message Summary<input type="text" name="summary" required></label>
+      <label class="input-full-width">Message:<textarea style="height: 15rem;" type="text" name="message" required></textarea></label>
       <button type="Submit">Submit</button>
     </form>
   </div>

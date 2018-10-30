@@ -96,7 +96,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 7rem;
-  font-family: 'Times New Roman';
+  font-family: 'Garamond';
   text-align: center;
 }
 nav {
@@ -141,11 +141,11 @@ div {
   /*background: linear-gradient(45deg , rgba(255,255,255,0.1) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0.3) 69%,rgba(255,255,255,0.6) 93%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff6ad5+0,c774e8+29,ad8cff+62,8795e8+100 */
-background: rgb(255,106,213); /* Old browsers */
-background: -moz-linear-gradient(45deg, rgba(255,106,213,1) 0%, rgba(199,116,232,1) 29%, rgba(173,140,255,1) 62%, rgba(135,149,232,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, rgba(255,106,213,1) 0%,rgba(199,116,232,1) 29%,rgba(173,140,255,1) 62%,rgba(135,149,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, rgba(255,106,213,1) 0%,rgba(199,116,232,1) 29%,rgba(173,140,255,1) 62%,rgba(135,149,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ad5', endColorstr='#8795e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: rgb(255,106,213); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(255,106,213,1) 0%, rgba(199,116,232,1) 29%, rgba(173,140,255,1) 62%, rgba(135,149,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(255,106,213,1) 0%,rgba(199,116,232,1) 29%,rgba(173,140,255,1) 62%,rgba(135,149,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(255,106,213,1) 0%,rgba(199,116,232,1) 29%,rgba(173,140,255,1) 62%,rgba(135,149,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6ad5', endColorstr='#8795e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   margin-bottom: 7rem;  
 }
 img {
@@ -216,8 +216,15 @@ form {
   flex-wrap: wrap;
   justify-content: center;
 }
-input {
+label {
   margin: 2% 2.5% 2% 2.5%;
+  padding: 0;
+}
+input {
+  width: 100%;
+}
+textarea {
+  width: 100%;
 }
 .input-small {
   width: 45%;
