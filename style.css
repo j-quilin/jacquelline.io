@@ -14,42 +14,6 @@
   font-family: 'varela';
   src: url('varela-round/VarelaRound-Regular.otf') format('truetype');
 }
-@font-face {
-  font-family: 'pop';
-  src: url('60s-pop/60s\ Pop.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Linotte-SemiBold';
-  src: url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff2') format('woff2'),
-       url('Linotte\ SemiBold-Webfont/Webfonts/linotte_semibold_macroman/Linotte-SemiBold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Jaapokki';
-  src: url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.eot');
-  src: url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'),
-       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.woff') format('woff'),
-       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.ttf') format('truetype'),
-       url('Jaapokki-font-package-1.0/subtract/web/jaapokkisubtract-regular.svg') format('svg');
-}
-@font-face {
-  font-family: 'arkhip';
-  src:url('arkhip/Arkhip_font.otf') format("opentype"),
-      url('arkhip/Arkhip_font.ttf') format("truetype");
-}
-@font-face {
-  font-family: 'club';
-  src: url('NEON\ CLUB\ MUSIC\ \(Font\ by\ Manuel\ Viergutz\)/NEON\ CLUB\ MUSIC_bold.otf') format('truetype');
-}
-@font-face {
-  font-family: 'pac';
-  src: url('pacfont/PAC-FONT.TTF') format('truetype');
-}
-@font-face {
-  font-family: 'halo';
-  src: url('halo/HALO____.TTF') format('truetype');
-}
 
 html {
   width: 100%;
