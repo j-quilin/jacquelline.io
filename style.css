@@ -217,9 +217,10 @@ textarea {
     display: flex;
     flex-flow: wrap;
     align-items: center;
+    margin: 2rem 0rem;
   }
  .navLink {
-      font-size: 4.7rem;
+      font-size: 5rem;
       margin: auto;
   }
   .glass_div {
