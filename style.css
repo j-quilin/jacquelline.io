@@ -35,7 +35,7 @@ body {
   */
   background-color: #fff;
   font-family: 'Nunito', sans-serif;
-  font-weight: 1000;
+  font-weight: 600;
 }
 h2 {
   font-size: 1.8rem;
@@ -93,13 +93,14 @@ div {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-content: center;
+  text-align: justify;
 }
 .glass_div {
   display: block;
   width: 65rem;
   min-height: 28rem;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.9rem;
   letter-spacing: 0.3rem;
   margin: auto;
   padding: 2.5rem 4rem 2.5rem 4rem;
