@@ -14,7 +14,10 @@
   font-family: 'varela';
   src: url('varela-round/VarelaRound-Regular.otf') format('truetype');
 }
-
+@font-face {
+  font-family: 'baby';
+  src: url('babyblocks/baby\ blocks.ttf') format('truetype');
+}
 html {
   width: 100%;
   height: 100%;
@@ -61,7 +64,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 7rem;
-  font-family: 'Garamond';
+  font-family: 'baby';
   text-align: center;
 }
 nav {
